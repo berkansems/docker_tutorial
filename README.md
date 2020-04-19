@@ -1,6 +1,6 @@
 # docker_tutorial
 # List of Docker commands
-
+_________________________________________________________________________________________________
 
 - docker run imagename
     > <p dir="rtl" align="right">bir image run etmek icin</p>
@@ -64,7 +64,7 @@ ________________________________________________________________________________
  `sudo docker-compose build`
  
  run docker file
- `sudo docker-compose `
+ `sudo docker-compose up`
  
  
  
