@@ -40,4 +40,32 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________
 - docker pull userName/yourDesiredNameForImage
     > <p dir="rtl" align="right">bir imagei dockerhubdan almak icin. bunun icin once mevcut image silimesi gerek</p>
+___________________________________________________________________________________________________
+ Build docker image:
+ 
+ `sudo docker build -t myapp .`
+ 
+ Here is code for running docker image:
+ 
+ `sudo docker run -it -p 8081:8000 myapp`
+ __________________________________________________________________________________________________
+  For creating netwrok:
+ 
+ ` sudo docker network create mynetwork`
+ 
+ connecting docker to network:
+ 
+ `sudo docker run -it -p 8081:8000 --network=mynetwork myapp`
+ 
+ `sudo docker run -it -p 5555:5432 --network=mynetwork postgres`
+ ___________________________________________________________________________________________________
+ 
+  build a docker-compose:
+ `sudo docker-compose build`
+ 
+ run docker file
+ `sudo docker-compose `
+ 
+ 
+ 
 
