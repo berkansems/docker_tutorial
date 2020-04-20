@@ -1,7 +1,7 @@
 # docker_tutorial
 # List of Docker commands
 _________________________________________________________________________________________________
-
+# Genetal commands
 - docker run imagename
     > <p dir="rtl" align="right">bir image run etmek icin</p>
 
@@ -23,6 +23,7 @@ ________________________________________________________________________________
 - docker kill containerID
     > <p dir="rtl" align="right">docker calisan containeri silmek </p>
 _________________________________________________________________________________________________
+
 - docker build -t imageName:tagVersion
     > <p dir="rtl" align="right">image yaratmak icin image ismi ve versiyonun yazmak lazim</p>
 
@@ -41,6 +42,8 @@ ________________________________________________________________________________
 - docker pull userName/yourDesiredNameForImage
     > <p dir="rtl" align="right">bir imagei dockerhubdan almak icin. bunun icin once mevcut image silimesi gerek</p>
 ___________________________________________________________________________________________________
+ # Build docker image
+ 
  Build docker image:
  
  `sudo docker build -t myapp .`
@@ -49,7 +52,9 @@ ________________________________________________________________________________
  
  `sudo docker run -it -p 8081:8000 myapp`
  __________________________________________________________________________________________________
-  For creating netwrok:
+# Create network
+
+For creating netwrok:
  
  ` sudo docker network create mynetwork`
  
@@ -59,6 +64,7 @@ ________________________________________________________________________________
  
  `sudo docker run -it -p 5555:5432 --network=mynetwork postgres`
  ___________________________________________________________________________________________________
+ # Docker-compose 
  
   build a docker-compose:
  `sudo docker-compose build`
