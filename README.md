@@ -85,7 +85,8 @@ to turn off the docker-compose container
 
 `sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' postgres`
 
-to explore in docker container
+to execute a command in a running container
+
 `sudo docker exec -it myapp bash`
  
  
