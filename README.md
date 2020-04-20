@@ -81,7 +81,9 @@ to turn off the docker-compose container
 #sudo docker-compose ...
 Commands:
   build              Build or rebuild services
+  
   bundle             Generate a Docker bundle from the Compose file
+  
   config             Validate and view the Compose file
   create             Create services
   down               Stop and remove containers, networks, images, and volumes
