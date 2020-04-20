@@ -66,6 +66,22 @@ ________________________________________________________________________________
  run docker file
  `sudo docker-compose up`
  
+ to run a docker-compose file and migrate it
+`sudo docker-compose run ecommerce /usr/local/bin/python manage.py migrate`
+
+to turn off the docker-compose container
+`sudo docker-compose down`
+
+  ___________________________________________________________________________________________________
+ # postgres
+ 
+ to get container ip for pgadmin:
+
+`sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' postgres`
+
+to explore in docker container
+`sudo docker exec -it myapp bash`
+ 
  
  
 
