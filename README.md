@@ -79,7 +79,7 @@ to turn off the docker-compose container
 `sudo docker-compose down`
 
   ___________________________________________________________________________________________________
- # postgres
+ # Postgres dockerize
  
  to get container ip for pgadmin:
 
