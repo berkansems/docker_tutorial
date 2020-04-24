@@ -72,6 +72,9 @@ For creating netwrok:
  run docker file
  `sudo docker-compose up`
  
+ both in one
+ `docker-compose up --build`
+ 
  to run a docker-compose file and migrate it
 `sudo docker-compose run ecommerce /usr/local/bin/python manage.py migrate`
 
