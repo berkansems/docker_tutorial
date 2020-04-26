@@ -81,8 +81,8 @@ For creating netwrok:
 to turn off the docker-compose container
 `sudo docker-compose down`
 
-to delete unused docker images <none>:
-    `docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")`
+to delete unused docker "none" images:
+`docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")`
 
   ___________________________________________________________________________________________________
  # Postgres dockerize
