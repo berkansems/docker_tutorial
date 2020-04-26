@@ -84,6 +84,9 @@ to turn off the docker-compose container
 to delete unused docker "none" images:
 `docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")`
 
+to find what is in the logger or explore inside the container
+`sudo docker exec -it account bash`
+
   ___________________________________________________________________________________________________
  # Postgres dockerize
  
